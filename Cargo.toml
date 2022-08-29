@@ -13,8 +13,8 @@ edition = "2018"
 doctest = false
 
 [dependencies]
-tokio-postgres = "0.7"
-tokio-pg-mapper-derive = { version = "0.2.0", optional = true }
+tokio-postgres = { git = "https://github.com/sfackler/rust-postgres.git", branch = "master" }
+tokio-pg-mapper-derive = { git = "https://github.com/PG-kura/tokio-postgres-mapper.git", branch = "master", optional = true }
 
 [features]
 derive = ["tokio-pg-mapper-derive"]
