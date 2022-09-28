@@ -13,7 +13,7 @@ edition = "2018"
 doctest = false
 
 [dependencies]
-tokio-postgres = { git = "https://github.com/PG-kura/rust-postgres.git", branch = "custom_read_buffer_size" }
+tokio-postgres = { git = "https://github.com/PG-kura/rust-postgres.git", branch = "reduce-log2" }
 tokio-pg-mapper-derive = { git = "https://github.com/PG-kura/tokio-postgres-mapper.git", branch = "master", optional = true }
 
 [features]
